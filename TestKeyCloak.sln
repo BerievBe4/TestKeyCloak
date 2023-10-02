@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestKeyCloak", "TestKeyCloak\TestKeyCloak.csproj", "{836DB031-2E2A-4AD7-96A3-3945AA7A1936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestKeyCloak", "TestKeyCloak\TestKeyCloak.csproj", "{836DB031-2E2A-4AD7-96A3-3945AA7A1936}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Authentication", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Authentication\Keycloak.AuthServices.Authentication.csproj", "{FE8E0FA9-7807-40AA-BED2-B70B8E4A173E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Authentication", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Authentication\Keycloak.AuthServices.Authentication.csproj", "{AB8E3FAA-A534-4EE7-9409-7FF52BFB250F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Common", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Common\Keycloak.AuthServices.Common.csproj", "{89153FB2-178E-4CED-A544-10A8D97B66CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Authorization", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Authorization\Keycloak.AuthServices.Authorization.csproj", "{97EE9F38-F68D-400F-B34F-B54AC63A8CB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Sdk", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Sdk\Keycloak.AuthServices.Sdk.csproj", "{1C7329D5-232C-4E02-A46A-4F330B5075BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Common", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Common\Keycloak.AuthServices.Common.csproj", "{600716DB-7DBA-40F7-9B40-B1B3F0C8561D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Authorization", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Authorization\Keycloak.AuthServices.Authorization.csproj", "{C2A1DB21-2F43-4E34-A7DF-3E80DA37833B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keycloak.AuthServices.Sdk", "..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Sdk\Keycloak.AuthServices.Sdk.csproj", "{48E11B45-F980-4826-B1E1-5BEB7A835315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +23,22 @@ Global
 		{836DB031-2E2A-4AD7-96A3-3945AA7A1936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836DB031-2E2A-4AD7-96A3-3945AA7A1936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836DB031-2E2A-4AD7-96A3-3945AA7A1936}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE8E0FA9-7807-40AA-BED2-B70B8E4A173E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE8E0FA9-7807-40AA-BED2-B70B8E4A173E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE8E0FA9-7807-40AA-BED2-B70B8E4A173E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE8E0FA9-7807-40AA-BED2-B70B8E4A173E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89153FB2-178E-4CED-A544-10A8D97B66CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89153FB2-178E-4CED-A544-10A8D97B66CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89153FB2-178E-4CED-A544-10A8D97B66CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89153FB2-178E-4CED-A544-10A8D97B66CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C7329D5-232C-4E02-A46A-4F330B5075BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C7329D5-232C-4E02-A46A-4F330B5075BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C7329D5-232C-4E02-A46A-4F330B5075BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C7329D5-232C-4E02-A46A-4F330B5075BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2A1DB21-2F43-4E34-A7DF-3E80DA37833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2A1DB21-2F43-4E34-A7DF-3E80DA37833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2A1DB21-2F43-4E34-A7DF-3E80DA37833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2A1DB21-2F43-4E34-A7DF-3E80DA37833B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8E3FAA-A534-4EE7-9409-7FF52BFB250F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8E3FAA-A534-4EE7-9409-7FF52BFB250F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8E3FAA-A534-4EE7-9409-7FF52BFB250F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8E3FAA-A534-4EE7-9409-7FF52BFB250F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EE9F38-F68D-400F-B34F-B54AC63A8CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EE9F38-F68D-400F-B34F-B54AC63A8CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EE9F38-F68D-400F-B34F-B54AC63A8CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EE9F38-F68D-400F-B34F-B54AC63A8CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600716DB-7DBA-40F7-9B40-B1B3F0C8561D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600716DB-7DBA-40F7-9B40-B1B3F0C8561D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600716DB-7DBA-40F7-9B40-B1B3F0C8561D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600716DB-7DBA-40F7-9B40-B1B3F0C8561D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E11B45-F980-4826-B1E1-5BEB7A835315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E11B45-F980-4826-B1E1-5BEB7A835315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E11B45-F980-4826-B1E1-5BEB7A835315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E11B45-F980-4826-B1E1-5BEB7A835315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

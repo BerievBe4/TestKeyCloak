@@ -16,9 +16,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Authentication\Keycloak.AuthServices.Authentication.csproj" />
-    <ProjectReference Include="..\..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Authorization\Keycloak.AuthServices.Authorization.csproj" />
-    <ProjectReference Include="..\..\..\..\..\A819469\Downloads\keycloak\keycloak-authorization-services-dotnet-main\src\Keycloak.AuthServices.Sdk\Keycloak.AuthServices.Sdk.csproj" />
+    <Reference Include="Keycloak.AuthServices.Authentication">
+      <HintPath>..\Keycloak.AuthServices.Authentication\bin\Debug\net6.0\Keycloak.AuthServices.Authentication.dll</HintPath>
+    </Reference>
+    <Reference Include="Keycloak.AuthServices.Authorization">
+      <HintPath>..\Keycloak.AuthServices.Authorization\bin\Debug\net6.0\Keycloak.AuthServices.Authorization.dll</HintPath>
+    </Reference>
+    <Reference Include="Keycloak.AuthServices.Common">
+      <HintPath>..\Keycloak.AuthServices.Authentication\bin\Debug\net6.0\Keycloak.AuthServices.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Keycloak.AuthServices.Sdk">
+      <HintPath>..\Keycloak.AuthServices.Authorization\bin\Debug\net6.0\Keycloak.AuthServices.Sdk.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
